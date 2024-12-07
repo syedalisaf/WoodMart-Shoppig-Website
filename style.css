@@ -1,0 +1,613 @@
+.one{
+    background-color: lightgrey;
+} 
+.two{
+    color: solid lightgreen;
+}
+.three{
+   text-align: center;
+   border: 1px solid lightblue;
+   display: flex;
+   justify-content: center;
+}
+.three:hover{
+   text-decoration: underline;
+}
+
+.five{
+    text-align: center;
+}
+.six:hover{
+    text-decoration: underline;
+    
+}
+.col-7{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    /* border:2px  blue; */
+}
+.grid-container > div{
+    border: 2px solid skyblue; 
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+}
+.item1{
+ grid-column: span 2;
+ grid-row: span 2;
+}
+.item2{
+    grid-column: span 2;
+    
+}
+.item1 >img{
+    object-fit: contain; 
+    height: 500px;
+    width: 100%;
+
+}
+.item2 >img{
+    object-fit:contain;
+    width: 100%;
+    height: 250px;
+
+}
+.item3 >img{
+    
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.item4 >img{
+    width: 100%;
+    height: 250px;
+}
+
+.item1{
+    position: relative;
+}
+.image1{
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+}
+.item2{
+    position: relative;
+}
+.image2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 0;
+}
+.item3{
+   position: relative;
+}
+.image3{
+   position: absolute;
+   top: 10px;
+    right: 10px;
+    bottom: 0;
+}
+.item4{
+  position: relative;
+}
+.image4{
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+
+
+.carousel-control-prev{
+    columns: solid black;
+}
+.cardtype1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+}
+.cardtype1 >div {
+    text-align: center;
+    object-fit: contain;
+    height: auto;
+}
+.cardtype2{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+}
+.cardtype2{
+    text-align: center;
+    object-fit: contain;
+    height: auto; 
+}
+.nine{
+    text-align: center;
+}
+ 
+.seven .carousel-control-prev{
+    color: black;
+    left: -40px;
+     font-size: 30px; 
+    width: 100px;
+   bottom: 50px;
+}
+.seven .carousel-control-next{
+    color: black;
+     right: -40px; 
+    bottom: 50px;
+    font-size: 30px;
+    width: 100px;
+
+}
+.seven.carousel-control-prev:hover,.seven.carousel-control-next:hover{
+        color: black;
+}
+.seven.carousel-control-next:hover{
+color: black;
+}
+.seven{
+  text-align: center;
+}
+
+
+
+.ten{
+    
+}
+
+.ten .carousel-control-prev{
+    color: black;
+    left: -40px;  
+    font-size: 30px;
+    width: 30px;
+}
+.ten .carousel-control-next{
+    color: black;
+     right: -40px; 
+    font-size: 30px;
+    width: 30px;
+}
+.ten .carousel-control-prev:hover,
+.ten .carousel-control-next:hover{
+    color: black;
+}
+
+
+
+    .syed1 {
+        position: relative;
+       
+      }
+      .fathi1 {
+        opacity: 1;
+         display: block; 
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      .ali1 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .syed1:hover .fathi1 {
+        opacity: 0.3;
+      }
+      
+      .syed1:hover .ali1 {
+        opacity: 1;
+      }
+      .text1 {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+      .syed2 {
+        position: relative;
+       
+      }
+      .fathi2 {
+        opacity: 1;
+         display: block; 
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      .ali2 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .syed2:hover .fathi2 {
+        opacity: 0.3;
+      }
+      
+      .syed2:hover .ali2 {
+        opacity: 1;
+      }
+      .text2{
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+      .syed3 {
+        position: relative;
+       
+      }
+      .fathi3 {
+        opacity: 1;
+         display: block; 
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      .ali3 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .syed3:hover .fathi3 {
+        opacity: 0.3;
+      }
+      
+      .syed3:hover .ali3 {
+        opacity: 1;
+      }
+      .text3{
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+ .ten .carousel-indicators [data-bs-target] {
+        background-color: black; 
+        border-radius:50%;
+       width: 15px;
+       height: 15px; 
+       bottom: -20px; 
+    }
+    .ten .carousel-indicators {
+        bottom: -50px;
+    }
+
+
+.eleven{
+    text-align: center;
+   
+}
+.twelve .box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.box1{
+   border: 2px solid gray;
+   background-color:skyblue ; 
+   position: relative;
+}
+.child1{
+    position: absolute;
+    top: -70px;
+    right: 70px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 100px;
+    padding: 5px;
+    background-color: lightgray;
+}
+.para1{
+  padding: 50px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    left: 80px;
+    bottom: -10px;
+}
+
+.box2{
+    border: 2px solid gray;
+    background-color:skyblue ; 
+    position: relative;
+ }
+ .child2{
+     position: absolute;
+     top: -70px;
+     right: 70px;
+     text-align: center;
+     border: 2px solid gray;
+     border-radius: 100px;
+     padding: 5px;
+     background-color: lightgray;
+ }
+ .para2{
+   padding: 50px;
+     text-align: center;
+ }
+ .button{
+     position: absolute;
+     left: 80px;
+     bottom: -10px;
+ }
+
+ .box3{
+    border: 2px solid gray;
+    background-color:skyblue ; 
+    position: relative;
+ }
+ .child3{
+     position: absolute;
+     top: -70px;
+     right: 70px;
+     text-align: center;
+     border: 2px solid gray;
+     border-radius: 100px;
+     padding: 5px;
+     background-color: lightgray;
+ }
+ .para3{
+   padding: 50px;
+     text-align: center;
+ }
+ .button{
+     position: absolute;
+     left: 80px;
+     bottom: -10px;
+ }
+
+ .box4{
+    border: 2px solid gray;
+    background-color:skyblue ; 
+    position: relative;
+ }
+ .child4{
+     position: absolute;
+     top: -70px;
+     right: 70px;
+     text-align: center;
+     border: 2px solid gray;
+     border-radius: 100px;
+     padding: 5px;
+     background-color: lightgray;
+ }
+ .para4{
+   padding: 50px;
+     text-align: center;
+ }
+ .button{
+     position: absolute;
+     left: 80px;
+     bottom: -10px;
+ } 
+
+.thirdteen{
+    text-align: center;
+}
+.fourteen :hover{
+
+
+}
+.fourteen .carousel-control-prev{
+    color: black;
+     left: -50px; 
+    width: 30px;
+    font-size: 30px;
+}
+
+.fourteen .carousel-control-prev:hover,
+.fourteen .carousel-control-next:hover{
+    color: black;
+}
+
+.fourteen .carousel-control-next{
+    color: black;
+     right: -50px; 
+    font-size: 30px;
+    width: 30px;
+
+}
+ .fourteen .carousel-indicators [data-bs-target] {
+      background-color: black; 
+     border-radius:50%;
+    width: 15px;
+    height: 15px;  
+}
+.fourteen .carousel-indicators{
+     bottom: -70px;
+}
+.fourteen{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fourteen .show1{
+  position: relative;
+}
+.hover1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 250px;
+    border: 2px solid white;
+    background-color: aliceblue;
+}
+.fourteen .show2{
+    position: relative;
+}
+.hover2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 250px;
+    border: 2px solid white;
+    background-color: aliceblue;
+}
+
+.fourteen .show3{
+    position: relative;
+}
+.hover3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 250px;
+    border: 2px solid white;
+    background-color: aliceblue;
+}
+
+.allah img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+
+
+/* Shine */
+}
+
+.fifteen .carousel-control-prev{
+   color: black;
+   font-size: 30px;
+}
+.fifteen  .carousel-control-next{
+    color: black;
+    font-size: 30px;
+}
+.fifteen .carousel-caption d-none d-md-block {
+    background-color: black;
+}
+.fifteen .carousel-indicators [data-bs-target] {
+    background-color: black; 
+     border-radius:50%;
+    width: 15px;
+    height: 15px;   
+}
+.fifteen .carousel-inner img{
+    border-radius: -50px;
+}
+.fifteen .carousel-caption d-none d-md-block{
+    border-radius: -10px;
+}
+.slide1 img{
+  border-radius: 400px;
+}
+.slide2 img{
+    border-radius: 400px;
+  }
+  .slide3 img{
+    border-radius: 500px;
+  }
+ .fifteen .group{
+    gap: 10px;
+  }
+  .fifteen .group img{
+     width: 99%;
+  }
+  .fifteen .group{
+    position: relative;
+  }
+  .fifteen{
+   margin-bottom: 100px;
+  }
+
+ .group1{
+    position: absolute;
+    border: 2px solid white;
+    width:250px;
+    height: 180px;
+    left: 150;
+    right: 150px;
+    top: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .group img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+
+
+/* Shine */
+}
+
+.sixteen .photo img{
+    position: relative;
+}
+.form{
+    position: absolute;
+} 
+ .eighteen{
+    border: 1px solid lightblue;
+    
+ }
+ .sixteen .photo{
+    position: relative;
+  
+ }
+ .form{
+    position: absolute;
+     left: 200px;
+    right: 200px; 
+    top: 130px;
+    text-align: center;
+ }
+ .seventeen .form .lable{
+    background-color: skyblue;
+    border: 2px solid gray;
+   
+ }
